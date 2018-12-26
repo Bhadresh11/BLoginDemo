@@ -1,0 +1,11 @@
+framework module BLogin {
+  umbrella header "BLogin.h"
+
+  export *
+  module * { export * }
+}
+
+module BLogin.Swift {
+    header "BLogin-Swift.h"
+    requires objc
+}
